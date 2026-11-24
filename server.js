@@ -10,6 +10,7 @@ const products = [
 ];
 
 const express = require("express");
+const fs = require("fs");
 const app = express();
 app.use(express.static("public"));
 app.use(express.json());
@@ -30,20 +31,34 @@ app.get("/products/count", function (req, res) {
     res.json({ count: products.length });
 });
 
-const orders = [];
+const ORDERS_FILE = "orders.json";
 
+function loadOrders() {
+    if (!fs.existsSync(ORDERS_FILE)) {
+        return [];
+    }
+    const text = fs.readFileSync(ORDERS_FILE, "utf8");
+    return JSON.parse(text);
+}
+
+function saveOrders(orders) {
+    fs.writeFileSync(ORDERS_FILE, JSON.stringify(orders, null, 2));
+}
+
+const orders = loadOrders();
 app.post("/orders", function (req, res) {
-  const order = {
-    id: orders.length + 1,
-    items: req.body.items,
-    total: req.body.total
-  };
-  orders.push(order);
-  res.json({ message: "Order received", orderId: order.id });
+    const order = {
+        id: orders.length + 1,
+        items: req.body.items,
+        total: req.body.total
+    };
+    orders.push(order);
+    saveOrders(orders);
+    res.json({ message: "Order received", orderId: order.id });
 });
 
 app.get("/orders", function (req, res) {
-  res.json(orders);
+    res.json(orders);
 });
 
 app.listen(3000, function () {
