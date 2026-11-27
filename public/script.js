@@ -16,6 +16,11 @@ fetch("/products")
             const li = document.createElement("li");
             li.textContent = products[i].name + " - ₦" + products[i].price + " ";
 
+            const img = document.createElement("img");
+            img.src = products[i].image;
+            img.alt = products[i].name;
+            li.prepend(img);
+            
             const addBtn = document.createElement("button");
             addBtn.textContent = "Add to cart";
 

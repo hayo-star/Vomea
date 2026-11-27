@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Dog food and treats"><rect width="400" height="400" rx="28" fill="#f5f0e8"/>
+<circle cx="130" cy="196" r="15" fill="#b9733f"/><circle cx="162" cy="178" r="15" fill="#b9733f"/><circle cx="200" cy="170" r="15" fill="#b9733f"/><circle cx="238" cy="178" r="15" fill="#b9733f"/><circle cx="270" cy="196" r="15" fill="#b9733f"/><circle cx="148" cy="214" r="15" fill="#b9733f"/><circle cx="186" cy="202" r="15" fill="#b9733f"/><circle cx="224" cy="202" r="15" fill="#b9733f"/><circle cx="254" cy="214" r="15" fill="#b9733f"/>
+<path d="M80 228 h240 l-30 86 h-180 z" fill="#2c3e50"/>
+<rect x="72" y="218" width="256" height="22" rx="11" fill="#d4a017"/>
+<g fill="#d4a017">
+  <ellipse cx="200" cy="284" rx="20" ry="16"/>
+  <circle cx="165" cy="262" r="8"/><circle cx="190" cy="254" r="8"/>
+  <circle cx="214" cy="254" r="8"/><circle cx="238" cy="262" r="8"/>
+</g>
+<g transform="rotate(20 330 330)">
+  <rect x="296" y="322" width="68" height="16" rx="7" fill="#b9733f"/>
+  <circle cx="296" cy="322" r="11" fill="#b9733f"/><circle cx="296" cy="338" r="11" fill="#b9733f"/>
+  <circle cx="364" cy="322" r="11" fill="#b9733f"/><circle cx="364" cy="338" r="11" fill="#b9733f"/>
+</g>
+</svg>

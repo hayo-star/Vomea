@@ -1,12 +1,12 @@
 const products = [
-    { name: "GPS track tags", price: 15000 },
-    { name: "Dog cages and kennels", price: 45000 },
-    { name: "Outdoor dog houses", price: 60000 },
-    { name: "Dematting combs", price: 8000 },
-    { name: "Training collars", price: 12000 },
-    { name: "Dog grooming kits", price: 10000 },
-    { name: "Dog toys", price: 5000 },
-    { name: "Dog food and treats", price: 20000 }
+    { name: "GPS track tags", price: 15000, image: "/images/gps-tag.svg" },
+    { name: "Dog cages and kennels", price: 45000, image: "/images/dog-cage.svg" },
+    { name: "Outdoor dog houses", price: 60000, image: "/images/dog-house.svg" },
+    { name: "Dematting combs", price: 8000, image: "/images/dematting-comb.svg" },
+    { name: "Training collars", price: 12000, image: "/images/training-collar.svg" },
+    { name: "Dog grooming kits", price: 10000, image: "/images/grooming-kit.svg" },
+    { name: "Dog toys", price: 5000, image: "/images/dog-toys.svg" },
+    { name: "Dog food and treats", price: 20000, image: "/images/dog-food.svg" }
 ];
 
 const express = require("express");

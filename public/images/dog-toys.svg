@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Dog toys"><rect width="400" height="400" rx="28" fill="#f5f0e8"/>
+<g transform="rotate(-24 190 190)">
+  <rect x="100" y="172" width="180" height="36" rx="14" fill="#d4a017"/>
+  <circle cx="100" cy="166" r="26" fill="#d4a017"/>
+  <circle cx="100" cy="214" r="26" fill="#d4a017"/>
+  <circle cx="280" cy="166" r="26" fill="#d4a017"/>
+  <circle cx="280" cy="214" r="26" fill="#d4a017"/>
+</g>
+<circle cx="290" cy="300" r="48" fill="#2c3e50"/>
+<path d="M254 276 q36 22 72 0" fill="none" stroke="#d4a017" stroke-width="7" stroke-linecap="round"/>
+<path d="M254 324 q36 -22 72 0" fill="none" stroke="#d4a017" stroke-width="7" stroke-linecap="round"/>
+</svg>

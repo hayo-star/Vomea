@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Dog cage"><rect width="400" height="400" rx="28" fill="#f5f0e8"/>
+<path d="M165 120 v-30 h70 v30" fill="none" stroke="#2c3e50" stroke-width="9" stroke-linejoin="round"/>
+<rect x="70" y="120" width="260" height="190" rx="16" fill="#ffffff" stroke="#2c3e50" stroke-width="9"/>
+<line x1="110" y1="130" x2="110" y2="300" stroke="#2c3e50" stroke-width="7"/><line x1="150" y1="130" x2="150" y2="300" stroke="#2c3e50" stroke-width="7"/><line x1="190" y1="130" x2="190" y2="300" stroke="#2c3e50" stroke-width="7"/><line x1="230" y1="130" x2="230" y2="300" stroke="#2c3e50" stroke-width="7"/><line x1="270" y1="130" x2="270" y2="300" stroke="#2c3e50" stroke-width="7"/>
+<rect x="62" y="300" width="276" height="26" rx="8" fill="#2c3e50"/>
+<rect x="280" y="190" width="14" height="44" rx="6" fill="#d4a017"/>
+</svg>
