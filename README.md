@@ -1,4 +1,5 @@
 # Vomea
+<img width="741" height="980" alt="Screenshot 2026-11-27 at 15 58 06" src="https://github.com/user-attachments/assets/cfdfb3f2-c860-401c-ac2a-904e02b9d821" />
 
 A small online shop for luxury dog accessories, built as a learning project while teaching myself full-stack development.
 
